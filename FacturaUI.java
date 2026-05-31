@@ -47,12 +47,12 @@ public class FacturaUI extends JFrame {
        //Encabezado de la tabla
         JPanel headerTabla = new JPanel(new BorderLayout());
 
-        JLabel titulo = new JLabel("📄 Listado de Facturas");
+        JLabel titulo = new JLabel("Listado de Facturas");
         headerTabla.add(titulo, BorderLayout.WEST);
 
         JPanel botones = new JPanel();
-        botones.add(new JButton("➕ Añadir"));
-        botones.add(new JButton("❌ Eliminar"));
+        botones.add(new JButton(" Añadir"));
+        botones.add(new JButton(" Eliminar"));
 
         headerTabla.add(botones, BorderLayout.EAST);
 
